@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_addevent">
+
+    <fragment
+        android:id="@+id/nav_addevent"
+        android:name="com.example.addevent.ui.myEvents.MyEventsFragment"
+        android:label="@string/menu_addevent"
+        tools:layout="@layout/fragment_myevents" />
+
+    <fragment
+        android:id="@+id/nav_myevents"
+        android:name="com.example.addevent.ui.addEvent.AddEventFragment"
+        android:label="@string/menu_myevents"
+        tools:layout="@layout/fragment_addevent" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.addevent.ui.places.PlacesFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_places" />
+
+    <fragment
+        android:id="@+id/nav_products"
+        android:name="com.example.addevent.ui.achievements.AchievementsFragment"
+        android:label="@string/menu_products"
+        tools:layout="@layout/fragment_achievements" />
+
+    <fragment
+        android:id="@+id/nav_places"
+        android:name="com.example.addevent.ui.products.ProductsFragment"
+        android:label="@string/menu_places"
+        tools:layout="@layout/fragment_products" />
+
+    <fragment
+        android:id="@+id/nav_achievements"
+        android:name="com.example.addevent.ui.history.HistoryFragment"
+        android:label="@string/menu_achievements"
+        tools:layout="@layout/fragment_history" />
+</navigation>

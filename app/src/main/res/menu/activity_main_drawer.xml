@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addevent"
+            android:icon="@drawable/ic_menu_addevent"
+            android:title="@string/menu_addevent" />
+        <item
+            android:id="@+id/nav_myevents"
+            android:icon="@drawable/ic_menu_myevents"
+            android:title="@string/menu_myevents" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_history"
+            android:title="@string/menu_history" />
+
+    </group>
+
+    <item android:title="@string/additional">
+        <menu>
+            <item
+                android:id="@+id/nav_products"
+                android:icon="@drawable/ic_menu_products"
+                android:title="@string/menu_products" />
+            <item
+                android:id="@+id/nav_places"
+                android:icon="@drawable/ic_menu_places"
+                android:title="@string/menu_places" />
+            <item
+                android:id="@+id/nav_achievements"
+                android:icon="@drawable/ic_menu_achievements"
+                android:title="@string/menu_achievements" />
+        </menu>
+    </item>
+
+</menu>
